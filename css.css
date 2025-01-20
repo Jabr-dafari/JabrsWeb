@@ -1,0 +1,104 @@
+.Parent {
+    background-color: rgb(20, 2, 2);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.Parent div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    width: calc((100% - 50px)/3);
+    float: left;
+    margin-left: 10px;
+    opacity: 0.5;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* ul {
+    /* padding: 10px;
+    text-align: center;
+    display: inline-block; */
+/* list-style-type: none;
+    list-style-position: inside;
+    margin: 20px;
+}
+
+li {
+    background-color: grey;
+    margin: 20px;
+}
+
+.list {
+    margin: 15px;
+} */
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: cursive;
+
+}
+
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ddd;
+
+
+
+    tbody td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+
+}
+
+tbody tr {
+    background-color: #ffffff;
+
+}
+
+tbody tr:hover {
+    background-color: #a5aed6;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Calculations
+	5 spaces 1% * 5
+	so 95% last
+	with 94/4
+*/
+
+/* 
+Calculations
+	6 spaces 15px * 6
+	so 100% - 90px last
+	with 100% - 90px/4
